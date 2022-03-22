@@ -8,9 +8,9 @@ namespace csv2
     {
         static void Main(string[] args)
         {
-            //string rawCSV = File.ReadAllText("C:\\Users\\vikto\\OneDrive\\Documents\\csvexamples\\email-password-recovery.csv");
+            //string rawCSV = File.ReadAllText("D:\\csv_files\\email-password-recovery.csv");
             //Console.WriteLine(rawCSV);
-            //byte[] btsCSV = File.ReadAllBytes("C:\\Users\\vikto\\OneDrive\\Documents\\csvexamples\\email-password-recovery.csv");
+            //byte[] btsCSV = File.ReadAllBytes("D:\\csv_files\\email-password-recovery.csv");
             //foreach (var item in btsCSV)
             //{
             //    Console.Write($"{item} |");

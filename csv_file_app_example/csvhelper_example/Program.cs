@@ -14,8 +14,9 @@ namespace csvhelper_example
             var config = new CsvConfiguration(CultureInfo.InvariantCulture)
             {
                 Delimiter = ";"
+                
             };
-            using(var streamReader = new StreamReader("C:\\Users\\vikto\\OneDrive\\Documents\\csvexamples\\email-password-recovery.csv"))
+            using(var streamReader = new StreamReader("D:\\csv_files\\email-password-recovery.csv"))
             {
                 using(var csvReader = new CsvReader(streamReader, config))
                 {
