@@ -22,7 +22,7 @@ namespace csv2
             //}
             //string res = Encoding.ASCII.GetString(bt);
             //Console.WriteLine(res);
-            string[] rawsCSVs = File.ReadAllLines("C:\\Users\\vikto\\OneDrive\\Documents\\csvexamples\\email-password-recovery.csv");
+            string[] rawsCSVs = File.ReadAllLines("D:\\csv_files\\email-password-recovery.csv");
             //Console.WriteLine(rawsCSVs[0]);
 
             // List<string> loginEmails = new List<string>();
